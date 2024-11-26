@@ -1,10 +1,10 @@
 import React from "react";
 
-function ButtonAdd({ onSomar, onLimpar }) {
+function ButtonAdd({ onSum, onClear }) {
   return (
     <div>
       <button
-        onClick={onSomar}
+        onClick={onSum}
         style={{
           padding: "10px 20px",
           margin: "5px",
@@ -18,7 +18,7 @@ function ButtonAdd({ onSomar, onLimpar }) {
         Somar
       </button>
       <button
-        onClick={onLimpar}
+        onClick={onClear}
         style={{
           padding: "10px 20px",
           margin: "5px",

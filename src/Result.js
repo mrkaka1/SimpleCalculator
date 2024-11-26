@@ -1,10 +1,10 @@
 import React from "react";
 
-function Result({ resultado }) {
+function Result({ result }) {
   return (
     <div>
-      {resultado !== null && (
-        <h2 style={{ color: "#007bff" }}>Resultado: {resultado}</h2>
+      {result !== null && (
+        <h2 style={{ color: "#007bff" }}>result: {result}</h2>
       )}
     </div>
   );
